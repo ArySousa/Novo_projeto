@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Apps.Cadastro',
+    'Apps.Supervisor',
+    'Apps.Tecnico',
+
 ]
 
 MIDDLEWARE = [
@@ -76,7 +80,11 @@ WSGI_APPLICATION = 'Controle_mac.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'banco_controlemac',
+        'USER': 'root',
+        'PASSWORD': 'Poder0$07',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
     }
 }
 
