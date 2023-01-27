@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class TecnicoConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Controle_mac.Apps.Tecnico'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "Controle_mac.Apps.Tecnico"

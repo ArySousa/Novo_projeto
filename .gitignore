@@ -1,0 +1,20 @@
+# Arquivo SQLITE
+db.sqlite
+#.gitignore
+manage.py
+# Byte-compiled / optimized / DLL files
+venv/
+__pycache__/
+.env
+.env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+db.sqlite3
